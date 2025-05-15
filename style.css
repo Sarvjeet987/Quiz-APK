@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #3498db;
 }
-.main{
+
+.main {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#box{
+
+#box {
     width: 40%;
     /* height: 400px; */
     box-shadow: 0px 0px 5px gray;
@@ -20,13 +23,15 @@ body{
     background-color: white;
     padding: 15px;
 }
-.row{
+
+.row {
     width: 100%;
     margin: 2rem;
     margin-left: 0;
 
 }
-.btn{
+
+.btn {
     width: 100%;
     padding: 5px;
     font-size: 20px;
@@ -35,4 +40,11 @@ body{
     background-color: #3498db;
 
 
+}
+
+@media (max-width:1000px) {
+    #box {
+        width: 100%;
+        margin: 0 10px;
+    }
 }
